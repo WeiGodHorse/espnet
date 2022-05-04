@@ -15,17 +15,6 @@ espnet2.tts.abs_tts
     :show-inheritance:
 
 
-.. _espnet2.tts.__init__:
-
-espnet2.tts.__init__
---------------------
-
-.. automodule:: espnet2.tts.__init__
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
 .. _espnet2.tts.espnet_model:
 
 espnet2.tts.espnet_model
@@ -37,23 +26,12 @@ espnet2.tts.espnet_model
     :show-inheritance:
 
 
-.. _espnet2.tts.transformer.__init__:
+.. _espnet2.tts.__init__:
 
-espnet2.tts.transformer.__init__
---------------------------------
+espnet2.tts.__init__
+--------------------
 
-.. automodule:: espnet2.tts.transformer.__init__
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-.. _espnet2.tts.transformer.transformer:
-
-espnet2.tts.transformer.transformer
------------------------------------
-
-.. automodule:: espnet2.tts.transformer.transformer
+.. automodule:: espnet2.tts.__init__
     :members:
     :undoc-members:
     :show-inheritance:
@@ -81,34 +59,23 @@ espnet2.tts.fastspeech.__init__
     :show-inheritance:
 
 
-.. _espnet2.tts.tacotron2.__init__:
+.. _espnet2.tts.transformer.__init__:
 
-espnet2.tts.tacotron2.__init__
-------------------------------
+espnet2.tts.transformer.__init__
+--------------------------------
 
-.. automodule:: espnet2.tts.tacotron2.__init__
+.. automodule:: espnet2.tts.transformer.__init__
     :members:
     :undoc-members:
     :show-inheritance:
 
 
-.. _espnet2.tts.tacotron2.tacotron2:
+.. _espnet2.tts.transformer.transformer:
 
-espnet2.tts.tacotron2.tacotron2
--------------------------------
+espnet2.tts.transformer.transformer
+-----------------------------------
 
-.. automodule:: espnet2.tts.tacotron2.tacotron2
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-.. _espnet2.tts.feats_extract.log_mel_fbank:
-
-espnet2.tts.feats_extract.log_mel_fbank
----------------------------------------
-
-.. automodule:: espnet2.tts.feats_extract.log_mel_fbank
+.. automodule:: espnet2.tts.transformer.transformer
     :members:
     :undoc-members:
     :show-inheritance:
@@ -125,23 +92,12 @@ espnet2.tts.feats_extract.log_spectrogram
     :show-inheritance:
 
 
-.. _espnet2.tts.feats_extract.linear_spectrogram:
+.. _espnet2.tts.feats_extract.log_mel_fbank:
 
-espnet2.tts.feats_extract.linear_spectrogram
---------------------------------------------
+espnet2.tts.feats_extract.log_mel_fbank
+---------------------------------------
 
-.. automodule:: espnet2.tts.feats_extract.linear_spectrogram
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-.. _espnet2.tts.feats_extract.__init__:
-
-espnet2.tts.feats_extract.__init__
-----------------------------------
-
-.. automodule:: espnet2.tts.feats_extract.__init__
+.. automodule:: espnet2.tts.feats_extract.log_mel_fbank
     :members:
     :undoc-members:
     :show-inheritance:
@@ -158,17 +114,6 @@ espnet2.tts.feats_extract.abs_feats_extract
     :show-inheritance:
 
 
-.. _espnet2.tts.feats_extract.dio:
-
-espnet2.tts.feats_extract.dio
------------------------------
-
-.. automodule:: espnet2.tts.feats_extract.dio
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
 .. _espnet2.tts.feats_extract.energy:
 
 espnet2.tts.feats_extract.energy
@@ -180,12 +125,45 @@ espnet2.tts.feats_extract.energy
     :show-inheritance:
 
 
-.. _espnet2.tts.fastspeech2.__init__:
+.. _espnet2.tts.feats_extract.__init__:
 
-espnet2.tts.fastspeech2.__init__
---------------------------------
+espnet2.tts.feats_extract.__init__
+----------------------------------
 
-.. automodule:: espnet2.tts.fastspeech2.__init__
+.. automodule:: espnet2.tts.feats_extract.__init__
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+.. _espnet2.tts.feats_extract.dio:
+
+espnet2.tts.feats_extract.dio
+-----------------------------
+
+.. automodule:: espnet2.tts.feats_extract.dio
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+.. _espnet2.tts.feats_extract.linear_spectrogram:
+
+espnet2.tts.feats_extract.linear_spectrogram
+--------------------------------------------
+
+.. automodule:: espnet2.tts.feats_extract.linear_spectrogram
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+.. _espnet2.tts.fastspeech2.variance_predictor:
+
+espnet2.tts.fastspeech2.variance_predictor
+------------------------------------------
+
+.. automodule:: espnet2.tts.fastspeech2.variance_predictor
     :members:
     :undoc-members:
     :show-inheritance:
@@ -213,12 +191,12 @@ espnet2.tts.fastspeech2.fastspeech2
     :show-inheritance:
 
 
-.. _espnet2.tts.fastspeech2.variance_predictor:
+.. _espnet2.tts.fastspeech2.__init__:
 
-espnet2.tts.fastspeech2.variance_predictor
-------------------------------------------
+espnet2.tts.fastspeech2.__init__
+--------------------------------
 
-.. automodule:: espnet2.tts.fastspeech2.variance_predictor
+.. automodule:: espnet2.tts.fastspeech2.__init__
     :members:
     :undoc-members:
     :show-inheritance:
@@ -246,12 +224,23 @@ espnet2.tts.gst.style_encoder
     :show-inheritance:
 
 
-.. _espnet2.tts.utils.__init__:
+.. _espnet2.tts.tacotron2.tacotron2:
 
-espnet2.tts.utils.__init__
---------------------------
+espnet2.tts.tacotron2.tacotron2
+-------------------------------
 
-.. automodule:: espnet2.tts.utils.__init__
+.. automodule:: espnet2.tts.tacotron2.tacotron2
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+.. _espnet2.tts.tacotron2.__init__:
+
+espnet2.tts.tacotron2.__init__
+------------------------------
+
+.. automodule:: espnet2.tts.tacotron2.__init__
     :members:
     :undoc-members:
     :show-inheritance:
@@ -263,6 +252,17 @@ espnet2.tts.utils.parallel_wavegan_pretrained_vocoder
 -----------------------------------------------------
 
 .. automodule:: espnet2.tts.utils.parallel_wavegan_pretrained_vocoder
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+.. _espnet2.tts.utils.__init__:
+
+espnet2.tts.utils.__init__
+--------------------------
+
+.. automodule:: espnet2.tts.utils.__init__
     :members:
     :undoc-members:
     :show-inheritance:
